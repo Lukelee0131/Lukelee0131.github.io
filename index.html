@@ -1,16 +1,125 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<title>Page Title</title>
-</head>
-<body>
+<html lang="en">
 
-<h1 id = "title">大家好這是Lukelee的個人網站</h1>
-<h2>自我介紹:</h2>
-<p>大家好我是Lukelee</p>
-<p>我讀百齡國小,今年五年級</p>
-<p>我喜歡打球和打電動</p>
-  
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hi</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+    <link rel="shortcut icon" href="https://orangeapple.co/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">關於我</a></li>
+                        <li><a href="#">我的興趣</a></li>
+                        <li><a href="#">我的專長</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">連結</a></li>
+            </ul>
+            <h1>ha ha</h1>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-4">
+            <a href="https://www.facebook.com/profile.php?id=100005351257332" class="btn btn-primary" target=_new>我的臉書</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">此行簡介</h4>
+                        </div>
+                        <div class="modal-body">
+                            這是我的臉書喔喔喔喔喔喔!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a href="https://www.google.com.tw/" class="btn btn-danger" target=_new>goole</a>
+            <a href="https://lol.garena.tw/preindex" class="btn btn-danger" target=_new>英雄</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal2">
+                      Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">此行簡介</h4>
+                        </div>
+                        <div class="modal-body">
+                            google是連到google至於英雄是連到英雄聯盟官網
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a href="https://www.youtube.com/watch?v=qIF8xvSA0Gw" class="btn btn-warning" target=_new>youtube北</a>
+            <a href="https://www.youtube.com/watch?v=71uHBFo87C8" class="btn btn-warning" target=_new>youtube我</a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal3">
+                        Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">此行簡介</h4>
+                        </div>
+                        <div class="modal-body">
+                            我的歌單喔
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
